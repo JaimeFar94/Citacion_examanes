@@ -143,7 +143,7 @@ if not DEBUG:
 
 # 👇 Agregamos los assets de Vite
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "client/dist/assets"),  # CSS, JS, imágenes compiladas
+    os.path.join(BASE_DIR, "client/dist"),  # CSS, JS, imágenes compiladas
 ]
 
 # 👇 Para que Django pueda servir el index.html de Vite
