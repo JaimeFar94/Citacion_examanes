@@ -1,4 +1,5 @@
 asgiref==3.9.1
+Brotli==1.1.0
 certifi==2025.8.3
 charset-normalizer==3.4.3
 coreapi==2.3.3
@@ -8,10 +9,12 @@ Django==5.2.5
 django-coreapi==2.3.0
 django-cors-headers==4.7.0
 djangorestframework==3.16.1
+gunicorn==23.0.0
 idna==3.10
 itypes==1.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
+packaging==25.0
 psycopg2-binary==2.9.10
 requests==2.32.5
 sqlparse==0.5.3
@@ -19,3 +22,4 @@ typing_extensions==4.15.0
 tzdata==2025.2
 uritemplate==4.2.0
 urllib3==2.5.0
+whitenoise==6.11.0

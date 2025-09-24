@@ -4,16 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "react-scripts build",
+    "static-serve": "serve -s build -l 3000"
   },
   "dependencies": {
     "buffer": "^6.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "serve": "^14.2.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
