@@ -4,8 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "react-scripts build",
-    "static-serve": "serve -s build -l 3000"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "static-serve": "serve -s dist -l 3000"
   },
   "dependencies": {
     "buffer": "^6.0.3",
