@@ -11,5 +11,5 @@ router.register(r'student', views.StudentViews, 'student')
 #Generar metodos HTTTP
 urlpatterns = [
     path("api/v1/", include(router.urls)),
-    path("docs/", include_docs_urls(title="Milan API"))
+    path("docs/", include_docs_urls(title="Examen API"))
 ]
